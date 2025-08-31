@@ -1,0 +1,19 @@
+name: smart_find
+
+environment:
+  sdk: '^3.9.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_maps_flutter: ^2.12.3  # Latest resolvable
+  geolocator: ^14.0.2          # Latest
+  provider: ^6.1.5+1           # Latest
+  http: ^1.5.0                 # Latest
+  cupertino_icons: ^1.0.8      # Optional for iOS icons
+  #permission_handler: ^11.5.0   # For location permissions
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0        # For linting
